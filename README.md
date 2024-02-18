@@ -5,8 +5,11 @@ SimplyWPM is a minimalistic, browser-based application that randomly selects a q
 Test it out here: https://ponugotipranav.github.io/SimplyWPM
 
 Current Limitations:
+
 User must type out an exact match to the prompt for the test to conclude.
+
 Accuracy doesn't properly reflect overall # of mistakes, live WPM not displayed.
+
 No strong visual indicator when mistakes are made (eg. highlighting wrong portions).
 
 To-Do:
