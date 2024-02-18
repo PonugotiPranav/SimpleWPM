@@ -123,7 +123,15 @@ function updateAccuracy() {
         }
     }
     accuracy = Math.max(accuracy, 0); // Ensure accuracy is not negative
-    document.getElementById("testResult").innerText = `Accuracy: ${accuracy.toFixed(2)}%`;
+    const accuracyDisplay = document.getElementById("testResult");
+    accuracyDisplay.innerText = `Accuracy: ${accuracy.toFixed(2)}%`;
+
+    // Apply CSS class to change color if accuracy is less than 100
+    if (accuracy < 100) {
+        accuracyDisplay.classList.add('low-accuracy');
+    } else {
+        accuracyDisplay.classList.remove('low-accuracy');
+    }
 }
 
 function endTest() {
