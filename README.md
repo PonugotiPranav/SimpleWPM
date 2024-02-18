@@ -9,6 +9,6 @@ Current Limitations:
 - Accuracy doesn't properly reflect overall # of mistakes, live WPM not displayed.
 - No strong visual indicator when mistakes are made (eg. highlighting wrong portions).
 
-To-Do:
+Future Add-Ons:
 - Embed prompt within input field, and have color change from gray to black as user types out prompt.
 - Will also allow for features like changing color of text to red when the user makes a mistake.
